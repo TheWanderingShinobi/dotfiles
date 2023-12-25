@@ -1,6 +1,6 @@
 0|Catppuccin-Mocha|~/.config/swww/Catppuccin-Mocha/boat_abondoned.jpg
 0|Catppuccin-Latte|~/.config/swww/Catppuccin-Latte/jormungandr.jpg
-1|Decay-Green|~/.config/swww/Decay-Green/moments_before_desk.png
+1|Decay-Green|~/.config/swww/Decay-Green/pixel-room-digital-art-2k-wallpaper-2560x1440-uhdpaper.com-634.0_b.jpg
 0|Rose-Pine|~/.config/swww/Rose-Pine/mountain_dragon_pink.jpg
 0|Tokyo-Night|~/.config/swww/Tokyo-Night/cat_lofi_cafe.jpg
 0|Material-Sakura|~/.config/swww/Material-Sakura/material_pastel_6.jpg
