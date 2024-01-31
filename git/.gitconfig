@@ -1,6 +1,6 @@
 [user]
 	name = TheWanderingShinobi
-  email = thewanderingshinobi@proton.me
+	email = thewanderingshinobi@proton.me
 [core]
 	excludesfile = ~/.gitignore_global
     editor = nvim
