@@ -1,0 +1,13 @@
+address = 'Toronto, Canada'
+language = 'en_US'
+
+[units]
+temperature = 'celsius'
+speed = 'kmh'
+time = 'ap_pm'
+precipitation = 'mm'
+
+[gui]
+border = 'rounded'
+graph = 'lines'
+greeting = false

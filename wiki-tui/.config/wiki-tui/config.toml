@@ -1,9 +1,5 @@
 [api]
-pre_language = 'https://'
-post_language = '.wikipedia.org/w/api.php'
-language = 'English'
-language_changed_popup = true
-article_language_changed_popup = true
+base_url = 'https://en.wikipedia.org/'
 
 [theme]
 text = 'white'
@@ -16,25 +12,26 @@ highlight_inactive = 'black'
 
 [logging]
 enabled = true
+log_dir = 'wiki_tui.log'
 log_level = 'INFO'
 
 [features]
 links = true
 toc = true
 [keybindings.down]
-key = 'j'
+key = 'down'
 mode = 'normal'
 
 [keybindings.up]
-key = 'k'
+key = 'up'
 mode = 'normal'
 
 [keybindings.left]
-key = 'h'
+key = 'left'
 mode = 'normal'
 
 [keybindings.right]
-key = 'l'
+key = 'right'
 mode = 'normal'
 
 [keybindings.focus_next]
@@ -44,14 +41,6 @@ mode = 'normal'
 [keybindings.focus_prev]
 key = 'tab'
 mode = 'shift'
-
-[keybindings.toggle_language_selection]
-key = 'f2'
-mode = 'normal'
-
-[keybindings.toggle_article_language_selection]
-key = 'f3'
-mode = 'normal'
 [settings.toc]
 position = 'Right'
 title = 'Default'

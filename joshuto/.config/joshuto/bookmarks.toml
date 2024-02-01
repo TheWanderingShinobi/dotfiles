@@ -1,6 +1,19 @@
-bookmark = [
-  { key = "r", path = "/" },
-  { key = "e", path = "/etc" },
+[[bookmark]]
+key = "h"
+path = "~/"
 
-  { key = "h", path = "~/" },
-]
+[[bookmark]]
+key = "m"
+path = "/home/keeper/1-Frontdoor/2-Data/3-usenet"
+
+[[bookmark]]
+key = "escape"
+path = "/home/keeper/1-Frontdoor/2-Data/3-usenet"
+
+[[bookmark]]
+key = "r"
+path = "/"
+
+[[bookmark]]
+key = "e"
+path = "/etc"

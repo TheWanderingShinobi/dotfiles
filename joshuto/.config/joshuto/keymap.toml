@@ -110,6 +110,7 @@ keymap = [
   { keys = ["M"], command = ":mkdir " },
   # { keys = ["m", "k"], command = ":mkdir " },
   { keys = ["c", "w"], command = ":rename " },
+  { keys = ["b", "m"], command = ":add_bookmark " },
 
 
 
@@ -134,17 +135,21 @@ keymap = [
   { keys = ["m", "M"], command = "linemode sizemtime" },
 
   { keys = ["g", "/"], command = "cd /" },
-  { keys = ["g", "e"], command = "cd /etc" },
-  { keys = ["g", "u"], command = "cd /usr" },
+  { keys = ["g", "a"], command = "cd ~/1-Frontdoor/2-Data/1-media/2-tv/2-anime" },
+
+  { keys = ["g", "e"], command = "cd ~/1-Frontdoor/2-Data/1-media" },
+  { keys = ["g", "u"], command = "cd ~/1-Frontdoor/2-Data/3-usenet" },
   { keys = ["g", "h"], command = "cd ~/" },
-  { keys = ["g", "m"], command = "cd /mnt" },
-  { keys = ["g", "t"], command = "cd /tmp" },
+  { keys = ["g", "m"], command = "cd ~/1-Frontdoor/2-Data/1-media/1-movies" },
+  { keys = ["g", "t"], command = "cd ~/1-Frontdoor/2-Data/1-media/2-tv },
 
+  { keys = ["g", "o"], command = "cd ~/Documents" },
   { keys = ["g", "d"], command = "cd ~/Downloads" },
-  { keys = ["g", "p"], command = "cd ~/pic" },
 
-  { keys = ["g", "o", "d"], command = "cd ~/dotfiles" },
-  { keys = ["g", "o", "n"], command = "cd ~/notes" },
+  { keys = ["g", "p"], command = "cd ~/Pictures" },
+
+  { keys = ["g", "o", "d"], command = "cd ~/.dotfiles" },
+  { keys = ["g", "o", "n"], command = "cd ~/1-Frontdoor/1-Home/2-Personal/1-Second-Brain/0-Quick-Capture" },
   { keys = ["g", "o", "c"], command = "cd ~/codes" },
 
   { keys = ["g", "o", "a"], command = "cd ~/app" },
