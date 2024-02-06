@@ -153,4 +153,4 @@ hstr_no_tiocsti() {
 zle -N hstr_no_tiocsti
 bindkey '\C-r' hstr_no_tiocsti
 export HSTR_TIOCSTI=n
-
+export "MICRO_TRUECOLOR=1"
